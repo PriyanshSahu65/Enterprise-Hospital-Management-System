@@ -8,14 +8,14 @@ using std::string; // Use using declaration in .cpp for convenience
 // Constructor implementation
 Supplier::Supplier(string id, string name, string mobile)
     : supplierID(id), name(name), mobile(mobile) {
-    ObjectCounter::getInstance()->increment("Supplier");
+    INCREMENT_COUNTER("Supplier");
     Logger::getInstance()->logCreated("Supplier");
     Logger::getInstance()->logGenericCount("Supplier");
 }
 
 // Destructor implementation
 Supplier::~Supplier() {
-    ObjectCounter::getInstance()->decrement("Supplier");
+    DECREMENT_COUNTER("Supplier");
     Logger::getInstance()->logDeleted("Supplier");
 }
 

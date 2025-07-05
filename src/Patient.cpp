@@ -10,14 +10,14 @@ Patient::Patient(string id, string name, string dob, string gender,
                  string mobile, string city, string medicalHistory)
     : Person(id, name, dob, gender, mobile, city), // Call base class constructor
       patientID(id), medicalHistory(medicalHistory) {
-    ObjectCounter::getInstance()->increment("Patient"); // Track creation
+    INCREMENT_COUNTER("Patient"); // Track creation
     Logger::getInstance()->logCreated("Patient");
     Logger::getInstance()->logGenericCount("Patient"); // Log current count
 }
 
 // Destructor implementation
 Patient::~Patient() {
-    ObjectCounter::getInstance()->decrement("Patient"); // Track destruction
+    DECREMENT_COUNTER("Patient"); // Track destruction
     Logger::getInstance()->logDeleted("Patient");
 }
 

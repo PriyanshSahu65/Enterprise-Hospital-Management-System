@@ -10,14 +10,14 @@ AdministrativeStaff::AdministrativeStaff(string id, string name, string dob,
                                          string gender, string mobile, string city,
                                          string designation)
     : Staff(id, name, dob, gender, mobile, city, "AdministrativeStaff"), designation(designation) {
-    ObjectCounter::getInstance()->increment("AdministrativeStaff"); // Track creation
+    INCREMENT_COUNTER("AdministrativeStaff"); // Track creation
     Logger::getInstance()->logCreated("AdministrativeStaff");
     Logger::getInstance()->logGenericCount("AdministrativeStaff"); // Log current count
 }
 
 // Destructor implementation
 AdministrativeStaff::~AdministrativeStaff() {
-    ObjectCounter::getInstance()->decrement("AdministrativeStaff"); // Track destruction
+    DECREMENT_COUNTER("AdministrativeStaff"); // Track destruction
     Logger::getInstance()->logDeleted("AdministrativeStaff");
 }
 

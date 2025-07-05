@@ -8,14 +8,14 @@ using std::string; // Use using declaration in .cpp for convenience
 // Constructor implementation
 ShiftDetails::ShiftDetails(string id, string day, string start, string end)
     : shiftID(id), dayOfWeek(day), startTime(start), endTime(end) {
-    ObjectCounter::getInstance()->increment("ShiftDetails");
+    INCREMENT_COUNTER("ShiftDetails");
     Logger::getInstance()->logCreated("ShiftDetails");
     Logger::getInstance()->logGenericCount("ShiftDetails");
 }
 
 // Destructor implementation
 ShiftDetails::~ShiftDetails() {
-    ObjectCounter::getInstance()->decrement("ShiftDetails");
+    DECREMENT_COUNTER("ShiftDetails");
     Logger::getInstance()->logDeleted("ShiftDetails");
 }
 

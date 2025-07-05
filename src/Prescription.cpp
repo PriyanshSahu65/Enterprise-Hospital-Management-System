@@ -10,7 +10,7 @@ using std::vector;
 // Default constructor implementation (if defined in header)
 Prescription::Prescription()
     : prescriptionID(""), dateIssued(""), dosageInstructions("") {
-    ObjectCounter::getInstance()->increment("Prescription");
+    INCREMENT_COUNTER("Prescription");
     Logger::getInstance()->logCreated("Prescription");
     Logger::getInstance()->logGenericCount("Prescription");
 }
@@ -24,7 +24,7 @@ Prescription::Prescription(string id, string date, vector<Item*> items, string i
         this->prescribedItems.push_back(item); // Takes ownership of the passed pointers
     }
 
-    ObjectCounter::getInstance()->increment("Prescription");
+    INCREMENT_COUNTER("Prescription");
     Logger::getInstance()->logCreated("Prescription");
     Logger::getInstance()->logGenericCount("Prescription");
 }
@@ -38,7 +38,7 @@ Prescription::~Prescription() {
     }
     prescribedItems.clear(); // Clear the vector after deleting objects
 
-    ObjectCounter::getInstance()->decrement("Prescription");
+    DECREMENT_COUNTER("Prescription");
     Logger::getInstance()->logDeleted("Prescription");
 }
 

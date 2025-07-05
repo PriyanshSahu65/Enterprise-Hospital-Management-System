@@ -7,6 +7,7 @@
 #include <ctime>     // For std::time_t, std::localtime, std::put_time
 #include <iomanip>   // For std::put_time
 #include <map>       // For std::map (if you want to show object counts directly from Logger)
+#include "config.h"
 
 // Forward declaration of ObjectCounter to avoid circular dependency
 class ObjectCounter;
@@ -43,5 +44,11 @@ public:
     void logGenericCount(const std::string& className); // Logs the count of a specific class
     void logActivity(const std::string& className, const std::string& activity); // For specific actions/activities
 };
+
+#if ENABLE_LOGGER
+#define LOG_OBJECT_EVENT(event, type) Logger::getInstance()->event(type)
+#else
+#define LOG_OBJECT_EVENT(event, type)
+#endif
 
 #endif // LOGGER_H

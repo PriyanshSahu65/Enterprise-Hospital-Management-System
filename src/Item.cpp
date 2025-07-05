@@ -9,14 +9,14 @@ using std::string; // Use using declaration in .cpp for convenience
 // Constructor implementation
 Item::Item(string id, string name, double price)
     : itemID(id), itemName(name), unitPrice(price) {
-    ObjectCounter::getInstance()->increment("Item");
+    INCREMENT_COUNTER("Item");
     Logger::getInstance()->logCreated("Item");
     Logger::getInstance()->logGenericCount("Item");
 }
 
 // Destructor implementation
 Item::~Item() {
-    ObjectCounter::getInstance()->decrement("Item");
+    DECREMENT_COUNTER("Item");
     Logger::getInstance()->logDeleted("Item");
 }
 

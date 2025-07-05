@@ -8,7 +8,7 @@ using std::string; // Use using declaration in .cpp for convenience
 // Default constructor implementation (if defined in header)
 Appointment::Appointment()
     : appointmentID(""), patient(nullptr), doctor(nullptr), dateTime(""), reason("") {
-    ObjectCounter::getInstance()->increment("Appointment");
+    INCREMENT_COUNTER("Appointment");
     Logger::getInstance()->logCreated("Appointment");
     Logger::getInstance()->logGenericCount("Appointment");
 }
@@ -17,7 +17,7 @@ Appointment::Appointment()
 // Corrected to accept Patient* and Doctor*
 Appointment::Appointment(string id, Patient* pat, Doctor* doc, string dt, string rsn)
     : appointmentID(id), patient(pat), doctor(doc), dateTime(dt), reason(rsn) {
-    ObjectCounter::getInstance()->increment("Appointment");
+    INCREMENT_COUNTER("Appointment");
     Logger::getInstance()->logCreated("Appointment");
     Logger::getInstance()->logGenericCount("Appointment");
 }
@@ -26,7 +26,7 @@ Appointment::Appointment(string id, Patient* pat, Doctor* doc, string dt, string
 Appointment::~Appointment() {
     // If patient and doctor pointers are NOT owned (i.e., not new'd inside Appointment)
     // then no 'delete' here. Assuming they are managed by ObjectCache or similar.
-    ObjectCounter::getInstance()->decrement("Appointment");
+    DECREMENT_COUNTER("Appointment");
     Logger::getInstance()->logDeleted("Appointment");
 }
 

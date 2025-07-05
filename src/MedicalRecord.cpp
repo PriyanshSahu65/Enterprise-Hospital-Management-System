@@ -9,7 +9,7 @@ using std::string; // Use using declaration in .cpp for convenience
 MedicalRecord::MedicalRecord()
     : recordID(""), patient(nullptr), doctor(nullptr), admissionDate(""),
       diagnosis(""), treatment(""), prescription(nullptr) {
-    ObjectCounter::getInstance()->increment("MedicalRecord");
+    INCREMENT_COUNTER("MedicalRecord");
     Logger::getInstance()->logCreated("MedicalRecord");
     Logger::getInstance()->logGenericCount("MedicalRecord");
 }
@@ -19,7 +19,7 @@ MedicalRecord::MedicalRecord(string id, Patient* pat, Doctor* doc, string admDat
                              string diagnosis, string treatment, Prescription* presc)
     : recordID(id), patient(pat), doctor(doc), admissionDate(admDate),
       diagnosis(diagnosis), treatment(treatment), prescription(presc) { // Takes ownership of Prescription pointer
-    ObjectCounter::getInstance()->increment("MedicalRecord");
+    INCREMENT_COUNTER("MedicalRecord");
     Logger::getInstance()->logCreated("MedicalRecord");
     Logger::getInstance()->logGenericCount("MedicalRecord");
 }
@@ -38,7 +38,7 @@ MedicalRecord::~MedicalRecord() {
     // ASSUMPTION: MedicalRecord does NOT own Patient* or Doctor* objects,
     // so no 'delete patient;' or 'delete doctor;' here. They are managed externally.
 
-    ObjectCounter::getInstance()->decrement("MedicalRecord");
+    DECREMENT_COUNTER("MedicalRecord");
     Logger::getInstance()->logDeleted("MedicalRecord");
 }
 

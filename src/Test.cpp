@@ -9,14 +9,14 @@ using std::string; // Use using declaration in .cpp for convenience
 // Constructor implementation
 Test::Test(string id, string name, double cost) // Parameter name changed to cost
     : testID(id), name(name), cost(cost) { // Member name changed to cost
-    ObjectCounter::getInstance()->increment("Test");
+    INCREMENT_COUNTER("Test");
     Logger::getInstance()->logCreated("Test");
     Logger::getInstance()->logGenericCount("Test");
 }
 
 // Destructor implementation
 Test::~Test() {
-    ObjectCounter::getInstance()->decrement("Test");
+    DECREMENT_COUNTER("Test");
     Logger::getInstance()->logDeleted("Test");
 }
 

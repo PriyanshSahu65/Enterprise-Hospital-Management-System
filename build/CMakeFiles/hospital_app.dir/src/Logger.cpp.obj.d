@@ -131,5 +131,6 @@ CMakeFiles/hospital_app.dir/src/Logger.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\aligned_buffer.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_map.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
+ D:/2.Hospital_managment/include/config.h \
  D:/2.Hospital_managment/include/ObjectCounter.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream

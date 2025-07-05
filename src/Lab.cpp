@@ -10,7 +10,7 @@ using std::vector;
 // Default constructor implementation (if defined in header)
 Lab::Lab()
     : labID(""), name(""), inCharge(nullptr) {
-    ObjectCounter::getInstance()->increment("Lab");
+    INCREMENT_COUNTER("Lab");
     Logger::getInstance()->logCreated("Lab");
     Logger::getInstance()->logGenericCount("Lab");
 }
@@ -24,7 +24,7 @@ Lab::Lab(string id, string name, AdministrativeStaff* inChargeStaff, vector<Test
         this->tests.push_back(test); // Takes ownership of the passed pointers
     }
 
-    ObjectCounter::getInstance()->increment("Lab");
+    INCREMENT_COUNTER("Lab");
     Logger::getInstance()->logCreated("Lab");
     Logger::getInstance()->logGenericCount("Lab");
 }
@@ -41,7 +41,7 @@ Lab::~Lab() {
     // ASSUMPTION: Lab does NOT own the AdministrativeStaff* inCharge object,
     // so no 'delete inCharge;' here. It is managed externally.
 
-    ObjectCounter::getInstance()->decrement("Lab");
+    DECREMENT_COUNTER("Lab");
     Logger::getInstance()->logDeleted("Lab");
 }
 

@@ -12,7 +12,7 @@ Nurse::Nurse(string id, string name, string dob, string gender,
     : Staff(id, name, dob, gender, mobile, city, "Nurse"),
       department(department),
       shiftSchedule(schedule) { // Takes ownership of the ShiftSchedule pointer
-    ObjectCounter::getInstance()->increment("Nurse");
+    INCREMENT_COUNTER("Nurse");
     Logger::getInstance()->logCreated("Nurse");
     Logger::getInstance()->logGenericCount("Nurse");
 }
@@ -28,7 +28,7 @@ Nurse::~Nurse() {
         shiftSchedule = nullptr; // Prevent double deletion
     }
 
-    ObjectCounter::getInstance()->decrement("Nurse");
+    DECREMENT_COUNTER("Nurse");
     Logger::getInstance()->logDeleted("Nurse");
 }
 

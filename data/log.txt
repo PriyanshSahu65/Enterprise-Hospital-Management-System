@@ -1,282 +1,94 @@
-2025-07-05 23:20:48 - Logger initialized.
-2025-07-05 23:20:48 - Application started.
-2025-07-05 23:20:48 - ACTIVITY - main: Displaying current object counts.
-2025-07-05 23:20:48 - CREATED - ShiftDetails object.
-2025-07-05 23:20:48 - COUNT   - ShiftDetails: 1 active objects.
-2025-07-05 23:20:48 - CREATED - ShiftDetails object.
-2025-07-05 23:20:48 - COUNT   - ShiftDetails: 2 active objects.
-2025-07-05 23:20:48 - CREATED - ShiftDetails object.
-2025-07-05 23:20:48 - COUNT   - ShiftDetails: 3 active objects.
-2025-07-05 23:20:48 - CREATED - ShiftSchedule object.
-2025-07-05 23:20:48 - COUNT   - ShiftSchedule: 1 active objects.
-2025-07-05 23:20:48 - CREATED - ShiftSchedule object.
-2025-07-05 23:20:48 - COUNT   - ShiftSchedule: 2 active objects.
-2025-07-05 23:20:48 - CREATED - Person object.
-2025-07-05 23:20:48 - COUNT   - Person: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Staff object.
-2025-07-05 23:20:48 - COUNT   - Staff: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Doctor object.
-2025-07-05 23:20:48 - COUNT   - Doctor: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Person object.
-2025-07-05 23:20:48 - COUNT   - Person: 2 active objects.
-2025-07-05 23:20:48 - CREATED - Staff object.
-2025-07-05 23:20:48 - COUNT   - Staff: 2 active objects.
-2025-07-05 23:20:48 - CREATED - Nurse object.
-2025-07-05 23:20:48 - COUNT   - Nurse: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Person object.
-2025-07-05 23:20:48 - COUNT   - Person: 3 active objects.
-2025-07-05 23:20:48 - CREATED - Staff object.
-2025-07-05 23:20:48 - COUNT   - Staff: 3 active objects.
-2025-07-05 23:20:48 - CREATED - AdministrativeStaff object.
-2025-07-05 23:20:48 - COUNT   - AdministrativeStaff: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Person object.
-2025-07-05 23:20:48 - COUNT   - Person: 4 active objects.
-2025-07-05 23:20:48 - CREATED - Patient object.
-2025-07-05 23:20:48 - COUNT   - Patient: 1 active objects.
-2025-07-05 23:20:48 - CREATED - MedicalRecord object.
-2025-07-05 23:20:48 - COUNT   - MedicalRecord: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Appointment object.
-2025-07-05 23:20:48 - COUNT   - Appointment: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Item object.
-2025-07-05 23:20:48 - COUNT   - Item: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Prescription object.
-2025-07-05 23:20:48 - COUNT   - Prescription: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Billing object.
-2025-07-05 23:20:48 - COUNT   - Billing: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Department object.
-2025-07-05 23:20:48 - COUNT   - Department: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Supplier object.
-2025-07-05 23:20:48 - COUNT   - Supplier: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Item object.
-2025-07-05 23:20:48 - COUNT   - Item: 2 active objects.
-2025-07-05 23:20:48 - CREATED - StockItem object.
-2025-07-05 23:20:48 - COUNT   - StockItem: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Inventory object.
-2025-07-05 23:20:48 - COUNT   - Inventory: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Test object.
-2025-07-05 23:20:48 - COUNT   - Test: 1 active objects.
-2025-07-05 23:20:48 - CREATED - Lab object.
-2025-07-05 23:20:48 - COUNT   - Lab: 1 active objects.
-2025-07-05 23:20:48 - ACTIVITY - main: Displaying current object counts.
-2025-07-05 23:20:48 - ACTIVITY - Patient: Updated mobile number for Arjun Reddy
-2025-07-05 23:20:48 - DELETED - ShiftDetails object.
-2025-07-05 23:20:48 - ACTIVITY - ShiftSchedule: Removed Shift with ID: SD001
-2025-07-05 23:20:48 - ACTIVITY - main: Displaying current object counts.
-2025-07-05 23:20:48 - DELETED - Test object.
-2025-07-05 23:20:48 - DELETED - Lab object.
-2025-07-05 23:20:48 - DELETED - Item object.
-2025-07-05 23:20:48 - DELETED - StockItem object.
-2025-07-05 23:20:48 - DELETED - Inventory object.
-2025-07-05 23:20:48 - DELETED - ShiftSchedule object.
-2025-07-05 23:20:48 - DELETED - Doctor object.
-2025-07-05 23:20:48 - DELETED - Staff object.
-2025-07-05 23:20:48 - DELETED - Person object.
-2025-07-05 23:20:48 - DELETED - Department object.
-2025-07-05 23:20:48 - DELETED - ShiftDetails object.
-2025-07-05 23:20:48 - DELETED - ShiftSchedule object.
-2025-07-05 23:20:48 - DELETED - Nurse object.
-2025-07-05 23:20:48 - DELETED - Staff object.
-2025-07-05 23:20:48 - DELETED - Person object.
-2025-07-05 23:20:48 - DELETED - Patient object.
-2025-07-05 23:20:48 - DELETED - Person object.
-2025-07-05 23:20:48 - DELETED - AdministrativeStaff object.
-2025-07-05 23:20:48 - DELETED - Staff object.
-2025-07-05 23:20:48 - DELETED - Person object.
-2025-07-05 23:20:48 - DELETED - Supplier object.
-2025-07-05 23:20:48 - DELETED - Appointment object.
-2025-07-05 23:20:48 - DELETED - Item object.
-2025-07-05 23:20:48 - DELETED - Prescription object.
-2025-07-05 23:20:48 - DELETED - MedicalRecord object.
-2025-07-05 23:20:48 - DELETED - Billing object.
-2025-07-05 23:20:48 - DELETED - ShiftDetails object.
-2025-07-05 23:20:48 - All dynamically allocated objects from main() deleted.
-2025-07-05 23:20:48 - ACTIVITY - main: Displaying current object counts.
-2025-07-05 23:20:48 - Application finished.
-2025-07-05 23:36:36 - Logger initialized.
-2025-07-05 23:36:36 - Application started.
-2025-07-05 23:36:36 - ACTIVITY - main: Displaying current object counts.
-2025-07-05 23:36:36 - CREATED - ShiftDetails object.
-2025-07-05 23:36:36 - COUNT   - ShiftDetails: 1 active objects.
-2025-07-05 23:36:36 - CREATED - ShiftDetails object.
-2025-07-05 23:36:36 - COUNT   - ShiftDetails: 2 active objects.
-2025-07-05 23:36:36 - CREATED - ShiftDetails object.
-2025-07-05 23:36:36 - COUNT   - ShiftDetails: 3 active objects.
-2025-07-05 23:36:36 - CREATED - ShiftSchedule object.
-2025-07-05 23:36:36 - COUNT   - ShiftSchedule: 1 active objects.
-2025-07-05 23:36:36 - CREATED - ShiftSchedule object.
-2025-07-05 23:36:36 - COUNT   - ShiftSchedule: 2 active objects.
-2025-07-05 23:36:36 - CREATED - Person object.
-2025-07-05 23:36:36 - COUNT   - Person: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Staff object.
-2025-07-05 23:36:36 - COUNT   - Staff: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Doctor object.
-2025-07-05 23:36:36 - COUNT   - Doctor: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Person object.
-2025-07-05 23:36:36 - COUNT   - Person: 2 active objects.
-2025-07-05 23:36:36 - CREATED - Staff object.
-2025-07-05 23:36:36 - COUNT   - Staff: 2 active objects.
-2025-07-05 23:36:36 - CREATED - Nurse object.
-2025-07-05 23:36:36 - COUNT   - Nurse: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Person object.
-2025-07-05 23:36:36 - COUNT   - Person: 3 active objects.
-2025-07-05 23:36:36 - CREATED - Staff object.
-2025-07-05 23:36:36 - COUNT   - Staff: 3 active objects.
-2025-07-05 23:36:36 - CREATED - AdministrativeStaff object.
-2025-07-05 23:36:36 - COUNT   - AdministrativeStaff: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Person object.
-2025-07-05 23:36:36 - COUNT   - Person: 4 active objects.
-2025-07-05 23:36:36 - CREATED - Patient object.
-2025-07-05 23:36:36 - COUNT   - Patient: 1 active objects.
-2025-07-05 23:36:36 - CREATED - MedicalRecord object.
-2025-07-05 23:36:36 - COUNT   - MedicalRecord: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Appointment object.
-2025-07-05 23:36:36 - COUNT   - Appointment: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Item object.
-2025-07-05 23:36:36 - COUNT   - Item: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Prescription object.
-2025-07-05 23:36:36 - COUNT   - Prescription: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Billing object.
-2025-07-05 23:36:36 - COUNT   - Billing: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Department object.
-2025-07-05 23:36:36 - COUNT   - Department: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Supplier object.
-2025-07-05 23:36:36 - COUNT   - Supplier: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Item object.
-2025-07-05 23:36:36 - COUNT   - Item: 2 active objects.
-2025-07-05 23:36:36 - CREATED - StockItem object.
-2025-07-05 23:36:36 - COUNT   - StockItem: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Inventory object.
-2025-07-05 23:36:36 - COUNT   - Inventory: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Test object.
-2025-07-05 23:36:36 - COUNT   - Test: 1 active objects.
-2025-07-05 23:36:36 - CREATED - Lab object.
-2025-07-05 23:36:36 - COUNT   - Lab: 1 active objects.
-2025-07-05 23:36:36 - ACTIVITY - main: Displaying current object counts.
-2025-07-05 23:36:36 - ACTIVITY - Patient: Updated mobile number for Arjun Reddy
-2025-07-05 23:36:36 - DELETED - ShiftDetails object.
-2025-07-05 23:36:36 - ACTIVITY - ShiftSchedule: Removed Shift with ID: SD001
-2025-07-05 23:36:36 - ACTIVITY - main: Displaying current object counts.
-2025-07-05 23:36:36 - DELETED - Test object.
-2025-07-05 23:36:36 - DELETED - Lab object.
-2025-07-05 23:36:36 - DELETED - Item object.
-2025-07-05 23:36:36 - DELETED - StockItem object.
-2025-07-05 23:36:36 - DELETED - Inventory object.
-2025-07-05 23:36:36 - DELETED - ShiftSchedule object.
-2025-07-05 23:36:36 - DELETED - Doctor object.
-2025-07-05 23:36:36 - DELETED - Staff object.
-2025-07-05 23:36:36 - DELETED - Person object.
-2025-07-05 23:36:36 - DELETED - Department object.
-2025-07-05 23:36:36 - DELETED - ShiftDetails object.
-2025-07-05 23:36:36 - DELETED - ShiftSchedule object.
-2025-07-05 23:36:36 - DELETED - Nurse object.
-2025-07-05 23:36:36 - DELETED - Staff object.
-2025-07-05 23:36:36 - DELETED - Person object.
-2025-07-05 23:36:36 - DELETED - Patient object.
-2025-07-05 23:36:36 - DELETED - Person object.
-2025-07-05 23:36:36 - DELETED - AdministrativeStaff object.
-2025-07-05 23:36:36 - DELETED - Staff object.
-2025-07-05 23:36:36 - DELETED - Person object.
-2025-07-05 23:36:36 - DELETED - Supplier object.
-2025-07-05 23:36:36 - DELETED - Appointment object.
-2025-07-05 23:36:36 - DELETED - Item object.
-2025-07-05 23:36:36 - DELETED - Prescription object.
-2025-07-05 23:36:36 - DELETED - MedicalRecord object.
-2025-07-05 23:36:36 - DELETED - Billing object.
-2025-07-05 23:36:36 - DELETED - ShiftDetails object.
-2025-07-05 23:36:36 - All dynamically allocated objects from main() deleted.
-2025-07-05 23:36:36 - ACTIVITY - main: Displaying current object counts.
-2025-07-05 23:36:36 - Application finished.
-2025-07-05 23:38:43 - Logger initialized.
-2025-07-05 23:38:43 - Application started.
-2025-07-05 23:38:43 - ACTIVITY - main: Displaying current object counts.
-2025-07-05 23:38:43 - CREATED - ShiftDetails object.
-2025-07-05 23:38:43 - COUNT   - ShiftDetails: 1 active objects.
-2025-07-05 23:38:43 - CREATED - ShiftDetails object.
-2025-07-05 23:38:43 - COUNT   - ShiftDetails: 2 active objects.
-2025-07-05 23:38:43 - CREATED - ShiftDetails object.
-2025-07-05 23:38:43 - COUNT   - ShiftDetails: 3 active objects.
-2025-07-05 23:38:43 - CREATED - ShiftSchedule object.
-2025-07-05 23:38:43 - COUNT   - ShiftSchedule: 1 active objects.
-2025-07-05 23:38:43 - CREATED - ShiftSchedule object.
-2025-07-05 23:38:43 - COUNT   - ShiftSchedule: 2 active objects.
-2025-07-05 23:38:43 - CREATED - Person object.
-2025-07-05 23:38:43 - COUNT   - Person: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Staff object.
-2025-07-05 23:38:43 - COUNT   - Staff: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Doctor object.
-2025-07-05 23:38:43 - COUNT   - Doctor: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Person object.
-2025-07-05 23:38:43 - COUNT   - Person: 2 active objects.
-2025-07-05 23:38:43 - CREATED - Staff object.
-2025-07-05 23:38:43 - COUNT   - Staff: 2 active objects.
-2025-07-05 23:38:43 - CREATED - Nurse object.
-2025-07-05 23:38:43 - COUNT   - Nurse: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Person object.
-2025-07-05 23:38:43 - COUNT   - Person: 3 active objects.
-2025-07-05 23:38:43 - CREATED - Staff object.
-2025-07-05 23:38:43 - COUNT   - Staff: 3 active objects.
-2025-07-05 23:38:43 - CREATED - AdministrativeStaff object.
-2025-07-05 23:38:43 - COUNT   - AdministrativeStaff: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Person object.
-2025-07-05 23:38:43 - COUNT   - Person: 4 active objects.
-2025-07-05 23:38:43 - CREATED - Patient object.
-2025-07-05 23:38:43 - COUNT   - Patient: 1 active objects.
-2025-07-05 23:38:43 - CREATED - MedicalRecord object.
-2025-07-05 23:38:43 - COUNT   - MedicalRecord: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Appointment object.
-2025-07-05 23:38:43 - COUNT   - Appointment: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Item object.
-2025-07-05 23:38:43 - COUNT   - Item: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Prescription object.
-2025-07-05 23:38:43 - COUNT   - Prescription: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Billing object.
-2025-07-05 23:38:43 - COUNT   - Billing: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Department object.
-2025-07-05 23:38:43 - COUNT   - Department: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Supplier object.
-2025-07-05 23:38:43 - COUNT   - Supplier: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Item object.
-2025-07-05 23:38:43 - COUNT   - Item: 2 active objects.
-2025-07-05 23:38:43 - CREATED - StockItem object.
-2025-07-05 23:38:43 - COUNT   - StockItem: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Inventory object.
-2025-07-05 23:38:43 - COUNT   - Inventory: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Test object.
-2025-07-05 23:38:43 - COUNT   - Test: 1 active objects.
-2025-07-05 23:38:43 - CREATED - Lab object.
-2025-07-05 23:38:43 - COUNT   - Lab: 1 active objects.
-2025-07-05 23:38:43 - ACTIVITY - main: Displaying current object counts.
-2025-07-05 23:38:43 - ACTIVITY - Patient: Updated mobile number for Arjun Reddy
-2025-07-05 23:38:43 - DELETED - ShiftDetails object.
-2025-07-05 23:38:43 - ACTIVITY - ShiftSchedule: Removed Shift with ID: SD001
-2025-07-05 23:38:43 - ACTIVITY - main: Displaying current object counts.
-2025-07-05 23:38:43 - DELETED - Test object.
-2025-07-05 23:38:43 - DELETED - Lab object.
-2025-07-05 23:38:43 - DELETED - Item object.
-2025-07-05 23:38:43 - DELETED - StockItem object.
-2025-07-05 23:38:43 - DELETED - Inventory object.
-2025-07-05 23:38:43 - DELETED - ShiftSchedule object.
-2025-07-05 23:38:43 - DELETED - Doctor object.
-2025-07-05 23:38:43 - DELETED - Staff object.
-2025-07-05 23:38:43 - DELETED - Person object.
-2025-07-05 23:38:43 - DELETED - Department object.
-2025-07-05 23:38:43 - DELETED - ShiftDetails object.
-2025-07-05 23:38:43 - DELETED - ShiftSchedule object.
-2025-07-05 23:38:43 - DELETED - Nurse object.
-2025-07-05 23:38:43 - DELETED - Staff object.
-2025-07-05 23:38:43 - DELETED - Person object.
-2025-07-05 23:38:43 - DELETED - Patient object.
-2025-07-05 23:38:43 - DELETED - Person object.
-2025-07-05 23:38:43 - DELETED - AdministrativeStaff object.
-2025-07-05 23:38:43 - DELETED - Staff object.
-2025-07-05 23:38:43 - DELETED - Person object.
-2025-07-05 23:38:43 - DELETED - Supplier object.
-2025-07-05 23:38:43 - DELETED - Appointment object.
-2025-07-05 23:38:43 - DELETED - Item object.
-2025-07-05 23:38:43 - DELETED - Prescription object.
-2025-07-05 23:38:43 - DELETED - MedicalRecord object.
-2025-07-05 23:38:43 - DELETED - Billing object.
-2025-07-05 23:38:43 - DELETED - ShiftDetails object.
-2025-07-05 23:38:43 - All dynamically allocated objects from main() deleted.
-2025-07-05 23:38:43 - ACTIVITY - main: Displaying current object counts.
-2025-07-05 23:38:43 - Application finished.
+2025-07-05 23:53:44 - Logger initialized.
+2025-07-05 23:53:44 - Application started.
+2025-07-05 23:53:44 - ACTIVITY - main: Displaying current object counts.
+2025-07-05 23:53:44 - CREATED - ShiftDetails object.
+2025-07-05 23:53:44 - COUNT   - ShiftDetails: 1 active objects.
+2025-07-05 23:53:44 - CREATED - ShiftDetails object.
+2025-07-05 23:53:44 - COUNT   - ShiftDetails: 2 active objects.
+2025-07-05 23:53:44 - CREATED - ShiftDetails object.
+2025-07-05 23:53:44 - COUNT   - ShiftDetails: 3 active objects.
+2025-07-05 23:53:44 - CREATED - ShiftSchedule object.
+2025-07-05 23:53:44 - COUNT   - ShiftSchedule: 1 active objects.
+2025-07-05 23:53:44 - CREATED - ShiftSchedule object.
+2025-07-05 23:53:44 - COUNT   - ShiftSchedule: 2 active objects.
+2025-07-05 23:53:44 - CREATED - Person object.
+2025-07-05 23:53:44 - COUNT   - Person: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Staff object.
+2025-07-05 23:53:44 - COUNT   - Staff: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Doctor object.
+2025-07-05 23:53:44 - COUNT   - Doctor: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Person object.
+2025-07-05 23:53:44 - COUNT   - Person: 2 active objects.
+2025-07-05 23:53:44 - CREATED - Staff object.
+2025-07-05 23:53:44 - COUNT   - Staff: 2 active objects.
+2025-07-05 23:53:44 - CREATED - Nurse object.
+2025-07-05 23:53:44 - COUNT   - Nurse: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Person object.
+2025-07-05 23:53:44 - COUNT   - Person: 3 active objects.
+2025-07-05 23:53:44 - CREATED - Staff object.
+2025-07-05 23:53:44 - COUNT   - Staff: 3 active objects.
+2025-07-05 23:53:44 - CREATED - AdministrativeStaff object.
+2025-07-05 23:53:44 - COUNT   - AdministrativeStaff: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Person object.
+2025-07-05 23:53:44 - COUNT   - Person: 4 active objects.
+2025-07-05 23:53:44 - CREATED - Patient object.
+2025-07-05 23:53:44 - COUNT   - Patient: 1 active objects.
+2025-07-05 23:53:44 - CREATED - MedicalRecord object.
+2025-07-05 23:53:44 - COUNT   - MedicalRecord: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Appointment object.
+2025-07-05 23:53:44 - COUNT   - Appointment: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Item object.
+2025-07-05 23:53:44 - COUNT   - Item: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Prescription object.
+2025-07-05 23:53:44 - COUNT   - Prescription: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Billing object.
+2025-07-05 23:53:44 - COUNT   - Billing: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Department object.
+2025-07-05 23:53:44 - COUNT   - Department: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Supplier object.
+2025-07-05 23:53:44 - COUNT   - Supplier: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Item object.
+2025-07-05 23:53:44 - COUNT   - Item: 2 active objects.
+2025-07-05 23:53:44 - CREATED - StockItem object.
+2025-07-05 23:53:44 - COUNT   - StockItem: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Inventory object.
+2025-07-05 23:53:44 - COUNT   - Inventory: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Test object.
+2025-07-05 23:53:44 - COUNT   - Test: 1 active objects.
+2025-07-05 23:53:44 - CREATED - Lab object.
+2025-07-05 23:53:44 - COUNT   - Lab: 1 active objects.
+2025-07-05 23:53:44 - ACTIVITY - main: Displaying current object counts.
+2025-07-05 23:53:44 - ACTIVITY - Patient: Updated mobile number for Arjun Reddy
+2025-07-05 23:53:44 - DELETED - ShiftDetails object.
+2025-07-05 23:53:44 - ACTIVITY - ShiftSchedule: Removed Shift with ID: SD001
+2025-07-05 23:53:44 - ACTIVITY - main: Displaying current object counts.
+2025-07-05 23:53:44 - DELETED - Test object.
+2025-07-05 23:53:44 - DELETED - Lab object.
+2025-07-05 23:53:44 - DELETED - Item object.
+2025-07-05 23:53:44 - DELETED - StockItem object.
+2025-07-05 23:53:44 - DELETED - Inventory object.
+2025-07-05 23:53:44 - DELETED - ShiftSchedule object.
+2025-07-05 23:53:44 - DELETED - Doctor object.
+2025-07-05 23:53:44 - DELETED - Staff object.
+2025-07-05 23:53:44 - DELETED - Person object.
+2025-07-05 23:53:44 - DELETED - Department object.
+2025-07-05 23:53:44 - DELETED - ShiftDetails object.
+2025-07-05 23:53:44 - DELETED - ShiftSchedule object.
+2025-07-05 23:53:44 - DELETED - Nurse object.
+2025-07-05 23:53:44 - DELETED - Staff object.
+2025-07-05 23:53:44 - DELETED - Person object.
+2025-07-05 23:53:44 - DELETED - Patient object.
+2025-07-05 23:53:44 - DELETED - Person object.
+2025-07-05 23:53:44 - DELETED - AdministrativeStaff object.
+2025-07-05 23:53:44 - DELETED - Staff object.
+2025-07-05 23:53:44 - DELETED - Person object.
+2025-07-05 23:53:44 - DELETED - Supplier object.
+2025-07-05 23:53:44 - DELETED - Appointment object.
+2025-07-05 23:53:44 - DELETED - Item object.
+2025-07-05 23:53:44 - DELETED - Prescription object.
+2025-07-05 23:53:44 - DELETED - MedicalRecord object.
+2025-07-05 23:53:44 - DELETED - Billing object.
+2025-07-05 23:53:44 - DELETED - ShiftDetails object.
+2025-07-05 23:53:44 - All dynamically allocated objects from main() deleted.
+2025-07-05 23:53:44 - ACTIVITY - main: Displaying current object counts.
+2025-07-05 23:53:44 - Application finished.

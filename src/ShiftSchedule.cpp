@@ -10,7 +10,7 @@ using std::vector;
 // Default constructor implementation (if defined in header)
 ShiftSchedule::ShiftSchedule()
     : scheduleID("") {
-    ObjectCounter::getInstance()->increment("ShiftSchedule");
+    INCREMENT_COUNTER("ShiftSchedule");
     Logger::getInstance()->logCreated("ShiftSchedule");
     Logger::getInstance()->logGenericCount("ShiftSchedule");
 }
@@ -24,7 +24,7 @@ ShiftSchedule::ShiftSchedule(string id, vector<ShiftDetails*> shiftList)
         this->shifts.push_back(shift); // Takes ownership of the passed pointers
     }
 
-    ObjectCounter::getInstance()->increment("ShiftSchedule");
+    INCREMENT_COUNTER("ShiftSchedule");
     Logger::getInstance()->logCreated("ShiftSchedule");
     Logger::getInstance()->logGenericCount("ShiftSchedule");
 }
@@ -38,7 +38,7 @@ ShiftSchedule::~ShiftSchedule() {
     }
     shifts.clear(); // Clear the vector after deleting objects
 
-    ObjectCounter::getInstance()->decrement("ShiftSchedule");
+    DECREMENT_COUNTER("ShiftSchedule");
     Logger::getInstance()->logDeleted("ShiftSchedule");
 }
 

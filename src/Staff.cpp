@@ -10,14 +10,14 @@ Staff::Staff(string id, string name, string dob, string gender,
              string mobile, string city, string role)
     : Person(id, name, dob, gender, mobile, city), // Call base class constructor
       staffID(id), role(role) { // Initialize redundant staffID
-    ObjectCounter::getInstance()->increment("Staff"); // Track creation
+    INCREMENT_COUNTER("Staff"); // Track creation
     Logger::getInstance()->logCreated("Staff");
     Logger::getInstance()->logGenericCount("Staff"); // Log current count
 }
 
 // Destructor implementation
 Staff::~Staff() {
-    ObjectCounter::getInstance()->decrement("Staff"); // Track destruction
+    DECREMENT_COUNTER("Staff"); // Track destruction
     Logger::getInstance()->logDeleted("Staff");
 }
 

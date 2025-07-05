@@ -9,7 +9,7 @@ using std::string; // Use using declaration in .cpp for convenience
 // Default constructor implementation (if defined in header)
 Billing::Billing()
     : billID(""), patient(nullptr), cost(0.0), paymentStatus(false) {
-    ObjectCounter::getInstance()->increment("Billing");
+    INCREMENT_COUNTER("Billing");
     Logger::getInstance()->logCreated("Billing");
     Logger::getInstance()->logGenericCount("Billing");
 }
@@ -18,7 +18,7 @@ Billing::Billing()
 // Corrected to accept Patient*
 Billing::Billing(string billID, Patient* pat, std::vector<string> services, double cost)
     : billID(billID), patient(pat), servicesProvided(services), cost(cost), paymentStatus(false) {
-    ObjectCounter::getInstance()->increment("Billing");
+    INCREMENT_COUNTER("Billing");
     Logger::getInstance()->logCreated("Billing");
     Logger::getInstance()->logGenericCount("Billing");
 }
@@ -26,7 +26,7 @@ Billing::Billing(string billID, Patient* pat, std::vector<string> services, doub
 // Destructor implementation
 Billing::~Billing() {
     // If patient pointer is NOT owned, then no 'delete' here.
-    ObjectCounter::getInstance()->decrement("Billing");
+    DECREMENT_COUNTER("Billing");
     Logger::getInstance()->logDeleted("Billing");
 }
 

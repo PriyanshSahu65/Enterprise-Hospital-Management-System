@@ -3,6 +3,7 @@
 
 #include <string>
 #include <map> // For std::map to store class counts
+#include "config.h"
 
 class ObjectCounter {
 private:
@@ -35,5 +36,13 @@ public:
     // Get the entire map of counts (useful for logging/debugging all counts)
     const std::map<std::string, int>& getCounter() const;
 };
+
+#if ENABLE_OBJECT_COUNTER
+#define INCREMENT_COUNTER(type) ObjectCounter::getInstance()->increment(type)
+#define DECREMENT_COUNTER(type) ObjectCounter::getInstance()->decrement(type)
+#else
+#define INCREMENT_COUNTER(type)
+#define DECREMENT_COUNTER(type)
+#endif
 
 #endif // OBJECTCOUNTER_H

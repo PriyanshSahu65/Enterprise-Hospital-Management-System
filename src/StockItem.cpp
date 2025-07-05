@@ -8,7 +8,7 @@ using std::string; // Use using declaration in .cpp for convenience
 // Default constructor implementation (if defined in header)
 StockItem::StockItem()
     : purchaseDate(""), quantity(0), item(nullptr), supplier(nullptr) {
-    ObjectCounter::getInstance()->increment("StockItem");
+    INCREMENT_COUNTER("StockItem");
     Logger::getInstance()->logCreated("StockItem");
     Logger::getInstance()->logGenericCount("StockItem");
 }
@@ -16,7 +16,7 @@ StockItem::StockItem()
 // Parameterized constructor implementation
 StockItem::StockItem(string purchaseDate, int quantity, Item* itemObj, Supplier* supplierObj)
     : purchaseDate(purchaseDate), quantity(quantity), item(itemObj), supplier(supplierObj) { // Takes ownership of Item pointer
-    ObjectCounter::getInstance()->increment("StockItem");
+    INCREMENT_COUNTER("StockItem");
     Logger::getInstance()->logCreated("StockItem");
     Logger::getInstance()->logGenericCount("StockItem");
 }
@@ -35,7 +35,7 @@ StockItem::~StockItem() {
     // ASSUMPTION: StockItem does NOT own the Supplier* object,
     // so no 'delete supplier;' here. It is managed externally.
 
-    ObjectCounter::getInstance()->decrement("StockItem");
+    DECREMENT_COUNTER("StockItem");
     Logger::getInstance()->logDeleted("StockItem");
 }
 

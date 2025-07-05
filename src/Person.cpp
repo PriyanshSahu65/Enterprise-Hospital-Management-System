@@ -9,14 +9,14 @@ using std::string; // Use using declaration in .cpp for convenience
 Person::Person(string ID, string name, string dob,
                string gender, string mobile, string city)
     : ID(ID), name(name), dob(dob), gender(gender), mobile(mobile), city(city) {
-    ObjectCounter::getInstance()->increment("Person"); // Track creation
+    INCREMENT_COUNTER("Person"); // Track creation
     Logger::getInstance()->logCreated("Person");
     Logger::getInstance()->logGenericCount("Person"); // Log current count
 }
 
 // Destructor implementation
 Person::~Person() {
-    ObjectCounter::getInstance()->decrement("Person"); // Track destruction
+    DECREMENT_COUNTER("Person"); // Track destruction
     Logger::getInstance()->logDeleted("Person");
 }
 

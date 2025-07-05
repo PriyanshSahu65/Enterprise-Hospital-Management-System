@@ -15,7 +15,7 @@ Department::Department(string id, string name, string description, vector<Doctor
         this->doctors.push_back(doc); // Takes ownership of the passed pointers
     }
 
-    ObjectCounter::getInstance()->increment("Department");
+    INCREMENT_COUNTER("Department");
     Logger::getInstance()->logCreated("Department");
     Logger::getInstance()->logGenericCount("Department");
 }
@@ -30,7 +30,7 @@ Department::~Department() {
     }
     doctors.clear(); // Clear the vector after deleting objects
 
-    ObjectCounter::getInstance()->decrement("Department");
+    DECREMENT_COUNTER("Department");
     Logger::getInstance()->logDeleted("Department");
 }
 

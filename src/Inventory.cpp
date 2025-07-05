@@ -9,7 +9,7 @@ using std::vector;
 
 // Default constructor implementation (if defined in header)
 Inventory::Inventory() : inventoryID("") {
-    ObjectCounter::getInstance()->increment("Inventory");
+    INCREMENT_COUNTER("Inventory");
     Logger::getInstance()->logCreated("Inventory");
     Logger::getInstance()->logGenericCount("Inventory");
 }
@@ -23,7 +23,7 @@ Inventory::Inventory(string id, vector<StockItem*> items)
         this->stockItems.push_back(item); // Takes ownership of the passed pointers
     }
 
-    ObjectCounter::getInstance()->increment("Inventory");
+    INCREMENT_COUNTER("Inventory");
     Logger::getInstance()->logCreated("Inventory");
     Logger::getInstance()->logGenericCount("Inventory");
 }
@@ -37,7 +37,7 @@ Inventory::~Inventory() {
     }
     stockItems.clear(); // Clear the vector after deleting objects
 
-    ObjectCounter::getInstance()->decrement("Inventory");
+    DECREMENT_COUNTER("Inventory");
     Logger::getInstance()->logDeleted("Inventory");
 }
 
