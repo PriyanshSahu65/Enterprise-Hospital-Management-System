@@ -208,6 +208,21 @@ int main() {
     }
     delete nurseObjs;
 
+    // Example: Using makeDataObjectList to load from large CSVs
+    // NOTE: makeDataObjectList() does not accept a filename; it loads from the default file.
+    // To support custom files, update the builder classes. For now, this will load the default CSVs.
+    DoctorBuilder docLargeBuilder;
+    auto doctorLargeObjs = docLargeBuilder.makeDataObjectList();
+    cout << "\n--- Doctors loaded from large CSV (default file) ---" << endl;
+    cout << "Loaded " << doctorLargeObjs->size() << " doctors from large file (default)." << endl;
+    delete doctorLargeObjs;
+
+    PatientBuilder patientLargeBuilder;
+    auto patientLargeObjs = patientLargeBuilder.makeDataObjectList();
+    cout << "\n--- Patients loaded from large CSV (default file) ---" << endl;
+    cout << "Loaded " << patientLargeObjs->size() << " patients from large file (default)." << endl;
+    delete patientLargeObjs;
+
     cout << "\n--- Deleting Objects (through main) ---" << endl;
     // Delete objects in reverse dependency order or by their primary owners.
     // Objects created with 'new' in main() must be 'delete'd here.
