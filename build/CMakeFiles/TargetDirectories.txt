@@ -1,0 +1,3 @@
+D:/2.Hospital_managment/build/CMakeFiles/hospital_app.dir
+D:/2.Hospital_managment/build/CMakeFiles/edit_cache.dir
+D:/2.Hospital_managment/build/CMakeFiles/rebuild_cache.dir
