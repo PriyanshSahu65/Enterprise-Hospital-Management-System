@@ -28,6 +28,7 @@ CMakeFiles/hospital_app.dir/main.cpp.obj: D:/2.Hospital_managment/main.cpp \
   D:/2.Hospital_managment/include/StockItem.h \
   D:/2.Hospital_managment/include/Supplier.h \
   D:/2.Hospital_managment/include/Test.h \
+  D:/2.Hospital_managment/include/config.h \
   D:/2.Hospital_managment/utils/Builder.h \
   D:/2.Hospital_managment/utils/BuilderFactory.h \
   D:/2.Hospital_managment/utils/DoctorBuilder.h \
@@ -189,6 +190,7 @@ CMakeFiles/hospital_app.dir/src/AdministrativeStaff.cpp.obj: D:/2.Hospital_manag
   D:/2.Hospital_managment/include/ObjectCounter.h \
   D:/2.Hospital_managment/include/Person.h \
   D:/2.Hospital_managment/include/Staff.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -330,6 +332,7 @@ CMakeFiles/hospital_app.dir/src/Appointment.cpp.obj: D:/2.Hospital_managment/src
   D:/2.Hospital_managment/include/ShiftDetails.h \
   D:/2.Hospital_managment/include/ShiftSchedule.h \
   D:/2.Hospital_managment/include/Staff.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -473,6 +476,7 @@ CMakeFiles/hospital_app.dir/src/Billing.cpp.obj: D:/2.Hospital_managment/src/Bil
   D:/2.Hospital_managment/include/ObjectCounter.h \
   D:/2.Hospital_managment/include/Patient.h \
   D:/2.Hospital_managment/include/Person.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -621,6 +625,7 @@ CMakeFiles/hospital_app.dir/src/Department.cpp.obj: D:/2.Hospital_managment/src/
   D:/2.Hospital_managment/include/ShiftDetails.h \
   D:/2.Hospital_managment/include/ShiftSchedule.h \
   D:/2.Hospital_managment/include/Staff.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -766,6 +771,7 @@ CMakeFiles/hospital_app.dir/src/Doctor.cpp.obj: D:/2.Hospital_managment/src/Doct
   D:/2.Hospital_managment/include/ShiftDetails.h \
   D:/2.Hospital_managment/include/ShiftSchedule.h \
   D:/2.Hospital_managment/include/Staff.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -910,6 +916,7 @@ CMakeFiles/hospital_app.dir/src/Inventory.cpp.obj: D:/2.Hospital_managment/src/I
   D:/2.Hospital_managment/include/ObjectCounter.h \
   D:/2.Hospital_managment/include/StockItem.h \
   D:/2.Hospital_managment/include/Supplier.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -1057,6 +1064,7 @@ CMakeFiles/hospital_app.dir/src/Item.cpp.obj: D:/2.Hospital_managment/src/Item.c
   D:/2.Hospital_managment/include/Item.h \
   D:/2.Hospital_managment/include/Logger.h \
   D:/2.Hospital_managment/include/ObjectCounter.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -1196,6 +1204,7 @@ CMakeFiles/hospital_app.dir/src/Lab.cpp.obj: D:/2.Hospital_managment/src/Lab.cpp
   D:/2.Hospital_managment/include/Person.h \
   D:/2.Hospital_managment/include/Staff.h \
   D:/2.Hospital_managment/include/Test.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -1341,6 +1350,7 @@ CMakeFiles/hospital_app.dir/src/Lab.cpp.obj: D:/2.Hospital_managment/src/Lab.cpp
 CMakeFiles/hospital_app.dir/src/Logger.cpp.obj: D:/2.Hospital_managment/src/Logger.cpp \
   D:/2.Hospital_managment/include/Logger.h \
   D:/2.Hospital_managment/include/ObjectCounter.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -1485,6 +1495,7 @@ CMakeFiles/hospital_app.dir/src/MedicalRecord.cpp.obj: D:/2.Hospital_managment/s
   D:/2.Hospital_managment/include/ShiftDetails.h \
   D:/2.Hospital_managment/include/ShiftSchedule.h \
   D:/2.Hospital_managment/include/Staff.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -1630,6 +1641,7 @@ CMakeFiles/hospital_app.dir/src/Nurse.cpp.obj: D:/2.Hospital_managment/src/Nurse
   D:/2.Hospital_managment/include/ShiftDetails.h \
   D:/2.Hospital_managment/include/ShiftSchedule.h \
   D:/2.Hospital_managment/include/Staff.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -1768,6 +1780,7 @@ CMakeFiles/hospital_app.dir/src/Nurse.cpp.obj: D:/2.Hospital_managment/src/Nurse
 
 CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.obj: D:/2.Hospital_managment/src/ObjectCounter.cpp \
   D:/2.Hospital_managment/include/ObjectCounter.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -1884,6 +1897,7 @@ CMakeFiles/hospital_app.dir/src/Patient.cpp.obj: D:/2.Hospital_managment/src/Pat
   D:/2.Hospital_managment/include/ObjectCounter.h \
   D:/2.Hospital_managment/include/Patient.h \
   D:/2.Hospital_managment/include/Person.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -2019,6 +2033,7 @@ CMakeFiles/hospital_app.dir/src/Person.cpp.obj: D:/2.Hospital_managment/src/Pers
   D:/2.Hospital_managment/include/Logger.h \
   D:/2.Hospital_managment/include/ObjectCounter.h \
   D:/2.Hospital_managment/include/Person.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -2155,6 +2170,7 @@ CMakeFiles/hospital_app.dir/src/Prescription.cpp.obj: D:/2.Hospital_managment/sr
   D:/2.Hospital_managment/include/Logger.h \
   D:/2.Hospital_managment/include/ObjectCounter.h \
   D:/2.Hospital_managment/include/Prescription.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -2302,6 +2318,7 @@ CMakeFiles/hospital_app.dir/src/ShiftDetails.cpp.obj: D:/2.Hospital_managment/sr
   D:/2.Hospital_managment/include/Logger.h \
   D:/2.Hospital_managment/include/ObjectCounter.h \
   D:/2.Hospital_managment/include/ShiftDetails.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -2438,6 +2455,7 @@ CMakeFiles/hospital_app.dir/src/ShiftSchedule.cpp.obj: D:/2.Hospital_managment/s
   D:/2.Hospital_managment/include/ObjectCounter.h \
   D:/2.Hospital_managment/include/ShiftDetails.h \
   D:/2.Hospital_managment/include/ShiftSchedule.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -2586,6 +2604,7 @@ CMakeFiles/hospital_app.dir/src/Staff.cpp.obj: D:/2.Hospital_managment/src/Staff
   D:/2.Hospital_managment/include/ObjectCounter.h \
   D:/2.Hospital_managment/include/Person.h \
   D:/2.Hospital_managment/include/Staff.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -2723,6 +2742,7 @@ CMakeFiles/hospital_app.dir/src/StockItem.cpp.obj: D:/2.Hospital_managment/src/S
   D:/2.Hospital_managment/include/ObjectCounter.h \
   D:/2.Hospital_managment/include/StockItem.h \
   D:/2.Hospital_managment/include/Supplier.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -2858,6 +2878,7 @@ CMakeFiles/hospital_app.dir/src/Supplier.cpp.obj: D:/2.Hospital_managment/src/Su
   D:/2.Hospital_managment/include/Logger.h \
   D:/2.Hospital_managment/include/ObjectCounter.h \
   D:/2.Hospital_managment/include/Supplier.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -2993,6 +3014,7 @@ CMakeFiles/hospital_app.dir/src/Test.cpp.obj: D:/2.Hospital_managment/src/Test.c
   D:/2.Hospital_managment/include/Logger.h \
   D:/2.Hospital_managment/include/ObjectCounter.h \
   D:/2.Hospital_managment/include/Test.h \
+  D:/2.Hospital_managment/include/config.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/errno.h \
@@ -3764,6 +3786,8 @@ c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc:
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocated_ptr.h:
 
 D:/2.Hospital_managment/include/Patient.h:
+
+D:/2.Hospital_managment/include/config.h:
 
 D:/2.Hospital_managment/include/AdministrativeStaff.h:
 

@@ -416,6 +416,30 @@ src/Nurse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hospital_app.dir\build.make CMakeFiles/hospital_app.dir/src/Nurse.cpp.s
 .PHONY : src/Nurse.cpp.s
 
+src/ObjectCache.obj: src/ObjectCache.cpp.obj
+.PHONY : src/ObjectCache.obj
+
+# target to build an object file
+src/ObjectCache.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hospital_app.dir\build.make CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.obj
+.PHONY : src/ObjectCache.cpp.obj
+
+src/ObjectCache.i: src/ObjectCache.cpp.i
+.PHONY : src/ObjectCache.i
+
+# target to preprocess a source file
+src/ObjectCache.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hospital_app.dir\build.make CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.i
+.PHONY : src/ObjectCache.cpp.i
+
+src/ObjectCache.s: src/ObjectCache.cpp.s
+.PHONY : src/ObjectCache.s
+
+# target to generate assembly for a file
+src/ObjectCache.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hospital_app.dir\build.make CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.s
+.PHONY : src/ObjectCache.cpp.s
+
 src/ObjectCounter.obj: src/ObjectCounter.cpp.obj
 .PHONY : src/ObjectCounter.obj
 
@@ -439,6 +463,30 @@ src/ObjectCounter.s: src/ObjectCounter.cpp.s
 src/ObjectCounter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hospital_app.dir\build.make CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.s
 .PHONY : src/ObjectCounter.cpp.s
+
+src/ObjectData.obj: src/ObjectData.cpp.obj
+.PHONY : src/ObjectData.obj
+
+# target to build an object file
+src/ObjectData.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hospital_app.dir\build.make CMakeFiles/hospital_app.dir/src/ObjectData.cpp.obj
+.PHONY : src/ObjectData.cpp.obj
+
+src/ObjectData.i: src/ObjectData.cpp.i
+.PHONY : src/ObjectData.i
+
+# target to preprocess a source file
+src/ObjectData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hospital_app.dir\build.make CMakeFiles/hospital_app.dir/src/ObjectData.cpp.i
+.PHONY : src/ObjectData.cpp.i
+
+src/ObjectData.s: src/ObjectData.cpp.s
+.PHONY : src/ObjectData.s
+
+# target to generate assembly for a file
+src/ObjectData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hospital_app.dir\build.make CMakeFiles/hospital_app.dir/src/ObjectData.cpp.s
+.PHONY : src/ObjectData.cpp.s
 
 src/Patient.obj: src/Patient.cpp.obj
 .PHONY : src/Patient.obj
@@ -821,9 +869,15 @@ help:
 	@echo ... src/Nurse.obj
 	@echo ... src/Nurse.i
 	@echo ... src/Nurse.s
+	@echo ... src/ObjectCache.obj
+	@echo ... src/ObjectCache.i
+	@echo ... src/ObjectCache.s
 	@echo ... src/ObjectCounter.obj
 	@echo ... src/ObjectCounter.i
 	@echo ... src/ObjectCounter.s
+	@echo ... src/ObjectData.obj
+	@echo ... src/ObjectData.i
+	@echo ... src/ObjectData.s
 	@echo ... src/Patient.obj
 	@echo ... src/Patient.i
 	@echo ... src/Patient.s

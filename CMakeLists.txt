@@ -17,10 +17,12 @@ set(SOURCE_FILES
     src/Inventory.cpp
     src/Item.cpp
     src/Lab.cpp
+    src/Logger.cpp
     src/MedicalRecord.cpp
     src/Nurse.cpp
+    src/ObjectCache.cpp
     src/ObjectCounter.cpp
-    src/Logger.cpp
+    src/ObjectData.cpp
     src/Patient.cpp
     src/Person.cpp
     src/Prescription.cpp

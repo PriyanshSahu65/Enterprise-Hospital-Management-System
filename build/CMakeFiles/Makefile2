@@ -84,12 +84,12 @@ clean: CMakeFiles/hospital_app.dir/clean
 CMakeFiles/hospital_app.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hospital_app.dir\build.make CMakeFiles/hospital_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hospital_app.dir\build.make CMakeFiles/hospital_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target hospital_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target hospital_app"
 .PHONY : CMakeFiles/hospital_app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hospital_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\2.Hospital_managment\build\CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\2.Hospital_managment\build\CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/hospital_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\2.Hospital_managment\build\CMakeFiles 0
 .PHONY : CMakeFiles/hospital_app.dir/rule
@@ -101,7 +101,7 @@ hospital_app: CMakeFiles/hospital_app.dir/rule
 # codegen rule for target.
 CMakeFiles/hospital_app.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hospital_app.dir\build.make CMakeFiles/hospital_app.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Finished codegen for target hospital_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Finished codegen for target hospital_app"
 .PHONY : CMakeFiles/hospital_app.dir/codegen
 
 # clean rule for target.

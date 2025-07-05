@@ -206,11 +206,26 @@ CMakeFiles/hospital_app.dir/src/Lab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hospital_app.dir/src/Lab.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\2.Hospital_managment\src\Lab.cpp -o CMakeFiles\hospital_app.dir\src\Lab.cpp.s
 
+CMakeFiles/hospital_app.dir/src/Logger.cpp.obj: CMakeFiles/hospital_app.dir/flags.make
+CMakeFiles/hospital_app.dir/src/Logger.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
+CMakeFiles/hospital_app.dir/src/Logger.cpp.obj: D:/2.Hospital_managment/src/Logger.cpp
+CMakeFiles/hospital_app.dir/src/Logger.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/hospital_app.dir/src/Logger.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/Logger.cpp.obj -MF CMakeFiles\hospital_app.dir\src\Logger.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\Logger.cpp.obj -c D:\2.Hospital_managment\src\Logger.cpp
+
+CMakeFiles/hospital_app.dir/src/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hospital_app.dir/src/Logger.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\2.Hospital_managment\src\Logger.cpp > CMakeFiles\hospital_app.dir\src\Logger.cpp.i
+
+CMakeFiles/hospital_app.dir/src/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hospital_app.dir/src/Logger.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\2.Hospital_managment\src\Logger.cpp -o CMakeFiles\hospital_app.dir\src\Logger.cpp.s
+
 CMakeFiles/hospital_app.dir/src/MedicalRecord.cpp.obj: CMakeFiles/hospital_app.dir/flags.make
 CMakeFiles/hospital_app.dir/src/MedicalRecord.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/src/MedicalRecord.cpp.obj: D:/2.Hospital_managment/src/MedicalRecord.cpp
 CMakeFiles/hospital_app.dir/src/MedicalRecord.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/hospital_app.dir/src/MedicalRecord.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/hospital_app.dir/src/MedicalRecord.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/MedicalRecord.cpp.obj -MF CMakeFiles\hospital_app.dir\src\MedicalRecord.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\MedicalRecord.cpp.obj -c D:\2.Hospital_managment\src\MedicalRecord.cpp
 
 CMakeFiles/hospital_app.dir/src/MedicalRecord.cpp.i: cmake_force
@@ -225,7 +240,7 @@ CMakeFiles/hospital_app.dir/src/Nurse.cpp.obj: CMakeFiles/hospital_app.dir/flags
 CMakeFiles/hospital_app.dir/src/Nurse.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/src/Nurse.cpp.obj: D:/2.Hospital_managment/src/Nurse.cpp
 CMakeFiles/hospital_app.dir/src/Nurse.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/hospital_app.dir/src/Nurse.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/hospital_app.dir/src/Nurse.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/Nurse.cpp.obj -MF CMakeFiles\hospital_app.dir\src\Nurse.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\Nurse.cpp.obj -c D:\2.Hospital_managment\src\Nurse.cpp
 
 CMakeFiles/hospital_app.dir/src/Nurse.cpp.i: cmake_force
@@ -236,11 +251,26 @@ CMakeFiles/hospital_app.dir/src/Nurse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hospital_app.dir/src/Nurse.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\2.Hospital_managment\src\Nurse.cpp -o CMakeFiles\hospital_app.dir\src\Nurse.cpp.s
 
+CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.obj: CMakeFiles/hospital_app.dir/flags.make
+CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
+CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.obj: D:/2.Hospital_managment/src/ObjectCache.cpp
+CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.obj -MF CMakeFiles\hospital_app.dir\src\ObjectCache.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\ObjectCache.cpp.obj -c D:\2.Hospital_managment\src\ObjectCache.cpp
+
+CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\2.Hospital_managment\src\ObjectCache.cpp > CMakeFiles\hospital_app.dir\src\ObjectCache.cpp.i
+
+CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\2.Hospital_managment\src\ObjectCache.cpp -o CMakeFiles\hospital_app.dir\src\ObjectCache.cpp.s
+
 CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.obj: CMakeFiles/hospital_app.dir/flags.make
 CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.obj: D:/2.Hospital_managment/src/ObjectCounter.cpp
 CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.obj -MF CMakeFiles\hospital_app.dir\src\ObjectCounter.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\ObjectCounter.cpp.obj -c D:\2.Hospital_managment\src\ObjectCounter.cpp
 
 CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.i: cmake_force
@@ -251,26 +281,26 @@ CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\2.Hospital_managment\src\ObjectCounter.cpp -o CMakeFiles\hospital_app.dir\src\ObjectCounter.cpp.s
 
-CMakeFiles/hospital_app.dir/src/Logger.cpp.obj: CMakeFiles/hospital_app.dir/flags.make
-CMakeFiles/hospital_app.dir/src/Logger.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
-CMakeFiles/hospital_app.dir/src/Logger.cpp.obj: D:/2.Hospital_managment/src/Logger.cpp
-CMakeFiles/hospital_app.dir/src/Logger.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/hospital_app.dir/src/Logger.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/Logger.cpp.obj -MF CMakeFiles\hospital_app.dir\src\Logger.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\Logger.cpp.obj -c D:\2.Hospital_managment\src\Logger.cpp
+CMakeFiles/hospital_app.dir/src/ObjectData.cpp.obj: CMakeFiles/hospital_app.dir/flags.make
+CMakeFiles/hospital_app.dir/src/ObjectData.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
+CMakeFiles/hospital_app.dir/src/ObjectData.cpp.obj: D:/2.Hospital_managment/src/ObjectData.cpp
+CMakeFiles/hospital_app.dir/src/ObjectData.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/hospital_app.dir/src/ObjectData.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/ObjectData.cpp.obj -MF CMakeFiles\hospital_app.dir\src\ObjectData.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\ObjectData.cpp.obj -c D:\2.Hospital_managment\src\ObjectData.cpp
 
-CMakeFiles/hospital_app.dir/src/Logger.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hospital_app.dir/src/Logger.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\2.Hospital_managment\src\Logger.cpp > CMakeFiles\hospital_app.dir\src\Logger.cpp.i
+CMakeFiles/hospital_app.dir/src/ObjectData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hospital_app.dir/src/ObjectData.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\2.Hospital_managment\src\ObjectData.cpp > CMakeFiles\hospital_app.dir\src\ObjectData.cpp.i
 
-CMakeFiles/hospital_app.dir/src/Logger.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hospital_app.dir/src/Logger.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\2.Hospital_managment\src\Logger.cpp -o CMakeFiles\hospital_app.dir\src\Logger.cpp.s
+CMakeFiles/hospital_app.dir/src/ObjectData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hospital_app.dir/src/ObjectData.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\2.Hospital_managment\src\ObjectData.cpp -o CMakeFiles\hospital_app.dir\src\ObjectData.cpp.s
 
 CMakeFiles/hospital_app.dir/src/Patient.cpp.obj: CMakeFiles/hospital_app.dir/flags.make
 CMakeFiles/hospital_app.dir/src/Patient.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/src/Patient.cpp.obj: D:/2.Hospital_managment/src/Patient.cpp
 CMakeFiles/hospital_app.dir/src/Patient.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/hospital_app.dir/src/Patient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/hospital_app.dir/src/Patient.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/Patient.cpp.obj -MF CMakeFiles\hospital_app.dir\src\Patient.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\Patient.cpp.obj -c D:\2.Hospital_managment\src\Patient.cpp
 
 CMakeFiles/hospital_app.dir/src/Patient.cpp.i: cmake_force
@@ -285,7 +315,7 @@ CMakeFiles/hospital_app.dir/src/Person.cpp.obj: CMakeFiles/hospital_app.dir/flag
 CMakeFiles/hospital_app.dir/src/Person.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/src/Person.cpp.obj: D:/2.Hospital_managment/src/Person.cpp
 CMakeFiles/hospital_app.dir/src/Person.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/hospital_app.dir/src/Person.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/hospital_app.dir/src/Person.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/Person.cpp.obj -MF CMakeFiles\hospital_app.dir\src\Person.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\Person.cpp.obj -c D:\2.Hospital_managment\src\Person.cpp
 
 CMakeFiles/hospital_app.dir/src/Person.cpp.i: cmake_force
@@ -300,7 +330,7 @@ CMakeFiles/hospital_app.dir/src/Prescription.cpp.obj: CMakeFiles/hospital_app.di
 CMakeFiles/hospital_app.dir/src/Prescription.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/src/Prescription.cpp.obj: D:/2.Hospital_managment/src/Prescription.cpp
 CMakeFiles/hospital_app.dir/src/Prescription.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/hospital_app.dir/src/Prescription.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/hospital_app.dir/src/Prescription.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/Prescription.cpp.obj -MF CMakeFiles\hospital_app.dir\src\Prescription.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\Prescription.cpp.obj -c D:\2.Hospital_managment\src\Prescription.cpp
 
 CMakeFiles/hospital_app.dir/src/Prescription.cpp.i: cmake_force
@@ -315,7 +345,7 @@ CMakeFiles/hospital_app.dir/src/ShiftDetails.cpp.obj: CMakeFiles/hospital_app.di
 CMakeFiles/hospital_app.dir/src/ShiftDetails.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/src/ShiftDetails.cpp.obj: D:/2.Hospital_managment/src/ShiftDetails.cpp
 CMakeFiles/hospital_app.dir/src/ShiftDetails.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/hospital_app.dir/src/ShiftDetails.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/hospital_app.dir/src/ShiftDetails.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/ShiftDetails.cpp.obj -MF CMakeFiles\hospital_app.dir\src\ShiftDetails.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\ShiftDetails.cpp.obj -c D:\2.Hospital_managment\src\ShiftDetails.cpp
 
 CMakeFiles/hospital_app.dir/src/ShiftDetails.cpp.i: cmake_force
@@ -330,7 +360,7 @@ CMakeFiles/hospital_app.dir/src/ShiftSchedule.cpp.obj: CMakeFiles/hospital_app.d
 CMakeFiles/hospital_app.dir/src/ShiftSchedule.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/src/ShiftSchedule.cpp.obj: D:/2.Hospital_managment/src/ShiftSchedule.cpp
 CMakeFiles/hospital_app.dir/src/ShiftSchedule.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/hospital_app.dir/src/ShiftSchedule.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/hospital_app.dir/src/ShiftSchedule.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/ShiftSchedule.cpp.obj -MF CMakeFiles\hospital_app.dir\src\ShiftSchedule.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\ShiftSchedule.cpp.obj -c D:\2.Hospital_managment\src\ShiftSchedule.cpp
 
 CMakeFiles/hospital_app.dir/src/ShiftSchedule.cpp.i: cmake_force
@@ -345,7 +375,7 @@ CMakeFiles/hospital_app.dir/src/Staff.cpp.obj: CMakeFiles/hospital_app.dir/flags
 CMakeFiles/hospital_app.dir/src/Staff.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/src/Staff.cpp.obj: D:/2.Hospital_managment/src/Staff.cpp
 CMakeFiles/hospital_app.dir/src/Staff.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/hospital_app.dir/src/Staff.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/hospital_app.dir/src/Staff.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/Staff.cpp.obj -MF CMakeFiles\hospital_app.dir\src\Staff.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\Staff.cpp.obj -c D:\2.Hospital_managment\src\Staff.cpp
 
 CMakeFiles/hospital_app.dir/src/Staff.cpp.i: cmake_force
@@ -360,7 +390,7 @@ CMakeFiles/hospital_app.dir/src/StockItem.cpp.obj: CMakeFiles/hospital_app.dir/f
 CMakeFiles/hospital_app.dir/src/StockItem.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/src/StockItem.cpp.obj: D:/2.Hospital_managment/src/StockItem.cpp
 CMakeFiles/hospital_app.dir/src/StockItem.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/hospital_app.dir/src/StockItem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/hospital_app.dir/src/StockItem.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/StockItem.cpp.obj -MF CMakeFiles\hospital_app.dir\src\StockItem.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\StockItem.cpp.obj -c D:\2.Hospital_managment\src\StockItem.cpp
 
 CMakeFiles/hospital_app.dir/src/StockItem.cpp.i: cmake_force
@@ -375,7 +405,7 @@ CMakeFiles/hospital_app.dir/src/Supplier.cpp.obj: CMakeFiles/hospital_app.dir/fl
 CMakeFiles/hospital_app.dir/src/Supplier.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/src/Supplier.cpp.obj: D:/2.Hospital_managment/src/Supplier.cpp
 CMakeFiles/hospital_app.dir/src/Supplier.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/hospital_app.dir/src/Supplier.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/hospital_app.dir/src/Supplier.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/Supplier.cpp.obj -MF CMakeFiles\hospital_app.dir\src\Supplier.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\Supplier.cpp.obj -c D:\2.Hospital_managment\src\Supplier.cpp
 
 CMakeFiles/hospital_app.dir/src/Supplier.cpp.i: cmake_force
@@ -390,7 +420,7 @@ CMakeFiles/hospital_app.dir/src/Test.cpp.obj: CMakeFiles/hospital_app.dir/flags.
 CMakeFiles/hospital_app.dir/src/Test.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/src/Test.cpp.obj: D:/2.Hospital_managment/src/Test.cpp
 CMakeFiles/hospital_app.dir/src/Test.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/hospital_app.dir/src/Test.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/hospital_app.dir/src/Test.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/src/Test.cpp.obj -MF CMakeFiles\hospital_app.dir\src\Test.cpp.obj.d -o CMakeFiles\hospital_app.dir\src\Test.cpp.obj -c D:\2.Hospital_managment\src\Test.cpp
 
 CMakeFiles/hospital_app.dir/src/Test.cpp.i: cmake_force
@@ -405,7 +435,7 @@ CMakeFiles/hospital_app.dir/utils/Builder.cpp.obj: CMakeFiles/hospital_app.dir/f
 CMakeFiles/hospital_app.dir/utils/Builder.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/utils/Builder.cpp.obj: D:/2.Hospital_managment/utils/Builder.cpp
 CMakeFiles/hospital_app.dir/utils/Builder.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/hospital_app.dir/utils/Builder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/hospital_app.dir/utils/Builder.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/utils/Builder.cpp.obj -MF CMakeFiles\hospital_app.dir\utils\Builder.cpp.obj.d -o CMakeFiles\hospital_app.dir\utils\Builder.cpp.obj -c D:\2.Hospital_managment\utils\Builder.cpp
 
 CMakeFiles/hospital_app.dir/utils/Builder.cpp.i: cmake_force
@@ -420,7 +450,7 @@ CMakeFiles/hospital_app.dir/utils/DoctorBuilder.cpp.obj: CMakeFiles/hospital_app
 CMakeFiles/hospital_app.dir/utils/DoctorBuilder.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/utils/DoctorBuilder.cpp.obj: D:/2.Hospital_managment/utils/DoctorBuilder.cpp
 CMakeFiles/hospital_app.dir/utils/DoctorBuilder.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/hospital_app.dir/utils/DoctorBuilder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/hospital_app.dir/utils/DoctorBuilder.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/utils/DoctorBuilder.cpp.obj -MF CMakeFiles\hospital_app.dir\utils\DoctorBuilder.cpp.obj.d -o CMakeFiles\hospital_app.dir\utils\DoctorBuilder.cpp.obj -c D:\2.Hospital_managment\utils\DoctorBuilder.cpp
 
 CMakeFiles/hospital_app.dir/utils/DoctorBuilder.cpp.i: cmake_force
@@ -435,7 +465,7 @@ CMakeFiles/hospital_app.dir/utils/PatientBuilder.cpp.obj: CMakeFiles/hospital_ap
 CMakeFiles/hospital_app.dir/utils/PatientBuilder.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/utils/PatientBuilder.cpp.obj: D:/2.Hospital_managment/utils/PatientBuilder.cpp
 CMakeFiles/hospital_app.dir/utils/PatientBuilder.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/hospital_app.dir/utils/PatientBuilder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/hospital_app.dir/utils/PatientBuilder.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/utils/PatientBuilder.cpp.obj -MF CMakeFiles\hospital_app.dir\utils\PatientBuilder.cpp.obj.d -o CMakeFiles\hospital_app.dir\utils\PatientBuilder.cpp.obj -c D:\2.Hospital_managment\utils\PatientBuilder.cpp
 
 CMakeFiles/hospital_app.dir/utils/PatientBuilder.cpp.i: cmake_force
@@ -450,7 +480,7 @@ CMakeFiles/hospital_app.dir/utils/NurseBuilder.cpp.obj: CMakeFiles/hospital_app.
 CMakeFiles/hospital_app.dir/utils/NurseBuilder.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/utils/NurseBuilder.cpp.obj: D:/2.Hospital_managment/utils/NurseBuilder.cpp
 CMakeFiles/hospital_app.dir/utils/NurseBuilder.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/hospital_app.dir/utils/NurseBuilder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/hospital_app.dir/utils/NurseBuilder.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/utils/NurseBuilder.cpp.obj -MF CMakeFiles\hospital_app.dir\utils\NurseBuilder.cpp.obj.d -o CMakeFiles\hospital_app.dir\utils\NurseBuilder.cpp.obj -c D:\2.Hospital_managment\utils\NurseBuilder.cpp
 
 CMakeFiles/hospital_app.dir/utils/NurseBuilder.cpp.i: cmake_force
@@ -465,7 +495,7 @@ CMakeFiles/hospital_app.dir/utils/BuilderFactory.cpp.obj: CMakeFiles/hospital_ap
 CMakeFiles/hospital_app.dir/utils/BuilderFactory.cpp.obj: CMakeFiles/hospital_app.dir/includes_CXX.rsp
 CMakeFiles/hospital_app.dir/utils/BuilderFactory.cpp.obj: D:/2.Hospital_managment/utils/BuilderFactory.cpp
 CMakeFiles/hospital_app.dir/utils/BuilderFactory.cpp.obj: CMakeFiles/hospital_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/hospital_app.dir/utils/BuilderFactory.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/hospital_app.dir/utils/BuilderFactory.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hospital_app.dir/utils/BuilderFactory.cpp.obj -MF CMakeFiles\hospital_app.dir\utils\BuilderFactory.cpp.obj.d -o CMakeFiles\hospital_app.dir\utils\BuilderFactory.cpp.obj -c D:\2.Hospital_managment\utils\BuilderFactory.cpp
 
 CMakeFiles/hospital_app.dir/utils/BuilderFactory.cpp.i: cmake_force
@@ -487,10 +517,12 @@ hospital_app_OBJECTS = \
 "CMakeFiles/hospital_app.dir/src/Inventory.cpp.obj" \
 "CMakeFiles/hospital_app.dir/src/Item.cpp.obj" \
 "CMakeFiles/hospital_app.dir/src/Lab.cpp.obj" \
+"CMakeFiles/hospital_app.dir/src/Logger.cpp.obj" \
 "CMakeFiles/hospital_app.dir/src/MedicalRecord.cpp.obj" \
 "CMakeFiles/hospital_app.dir/src/Nurse.cpp.obj" \
+"CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.obj" \
 "CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.obj" \
-"CMakeFiles/hospital_app.dir/src/Logger.cpp.obj" \
+"CMakeFiles/hospital_app.dir/src/ObjectData.cpp.obj" \
 "CMakeFiles/hospital_app.dir/src/Patient.cpp.obj" \
 "CMakeFiles/hospital_app.dir/src/Person.cpp.obj" \
 "CMakeFiles/hospital_app.dir/src/Prescription.cpp.obj" \
@@ -518,10 +550,12 @@ hospital_app.exe: CMakeFiles/hospital_app.dir/src/Doctor.cpp.obj
 hospital_app.exe: CMakeFiles/hospital_app.dir/src/Inventory.cpp.obj
 hospital_app.exe: CMakeFiles/hospital_app.dir/src/Item.cpp.obj
 hospital_app.exe: CMakeFiles/hospital_app.dir/src/Lab.cpp.obj
+hospital_app.exe: CMakeFiles/hospital_app.dir/src/Logger.cpp.obj
 hospital_app.exe: CMakeFiles/hospital_app.dir/src/MedicalRecord.cpp.obj
 hospital_app.exe: CMakeFiles/hospital_app.dir/src/Nurse.cpp.obj
+hospital_app.exe: CMakeFiles/hospital_app.dir/src/ObjectCache.cpp.obj
 hospital_app.exe: CMakeFiles/hospital_app.dir/src/ObjectCounter.cpp.obj
-hospital_app.exe: CMakeFiles/hospital_app.dir/src/Logger.cpp.obj
+hospital_app.exe: CMakeFiles/hospital_app.dir/src/ObjectData.cpp.obj
 hospital_app.exe: CMakeFiles/hospital_app.dir/src/Patient.cpp.obj
 hospital_app.exe: CMakeFiles/hospital_app.dir/src/Person.cpp.obj
 hospital_app.exe: CMakeFiles/hospital_app.dir/src/Prescription.cpp.obj
@@ -540,7 +574,7 @@ hospital_app.exe: CMakeFiles/hospital_app.dir/build.make
 hospital_app.exe: CMakeFiles/hospital_app.dir/linkLibs.rsp
 hospital_app.exe: CMakeFiles/hospital_app.dir/objects1.rsp
 hospital_app.exe: CMakeFiles/hospital_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable hospital_app.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\2.Hospital_managment\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable hospital_app.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\hospital_app.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
