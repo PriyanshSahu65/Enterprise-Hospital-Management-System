@@ -32,11 +32,8 @@
 #include <vector>
 #include <string>
 #include <map>
-#include <iomanip> // For std::fixed and std::setprecision
+#include <iomanip> 
 
-
-
-// Use standard namespace within main.cpp for convenience
 using namespace std;
 
 // Helper function to print all object counts
@@ -55,7 +52,7 @@ void printAllObjectCounts() {
 }
 
 int main() {
-    // Ensure Logger and ObjectCounter instances are created early
+    // early instance creation
     Logger* logger = Logger::getInstance();
     ObjectCounter* objCounter = ObjectCounter::getInstance();
 
@@ -80,44 +77,46 @@ int main() {
     const char* shiftDetailsCsv = "../data/shiftdetails_large.csv";
     const char* shiftScheduleCsv = "../data/shiftschedules_large.csv";
 
-    // Map to hold all loaded object vectors for later cleanup
     std::map<std::string, std::vector<DataObject*>*> loadedObjects;
+    
+    // Helper lambda for loading and reporting any entity
+    auto loadEntity = [&](const string& label, auto& builder, const char* path) {
+        cout << "Loading " << label << "..." << endl;
+        try {
+            builder.setFilePath(path);
+            loadedObjects[label] = builder.makeDataObjectList();
+        } catch (const std::exception& ex) {
+            Logger::getInstance()->log(label + "Builder error: " + ex.what());
+            cout << "[ERROR] " << label << "Builder: " << ex.what() << endl;
+        }
+    };
 
-    // Load all CSVs using their respective builders (only those implemented)
-    cout << "[DEBUG] Loading Doctor from: " << doctorCsv << endl;
-    DoctorBuilder doctorBuilder; doctorBuilder.setFilePath(doctorCsv); loadedObjects["Doctor"] = doctorBuilder.makeDataObjectList();
-    if (!loadedObjects["Doctor"] || loadedObjects["Doctor"]->empty()) cout << "[WARNING] No Doctor objects loaded!\n";
+    DoctorBuilder doctorBuilder;
+    loadEntity("Doctor", doctorBuilder, doctorCsv);
+    PatientBuilder patientBuilder;
+    loadEntity("Patient", patientBuilder, patientCsv);
+    NurseBuilder nurseBuilder;
+    loadEntity("Nurse", nurseBuilder, nurseCsv);
 
-    cout << "[DEBUG] Loading Patient from: " << patientCsv << endl;
-    PatientBuilder patientBuilder; patientBuilder.setFilePath(patientCsv); loadedObjects["Patient"] = patientBuilder.makeDataObjectList();
-    if (!loadedObjects["Patient"] || loadedObjects["Patient"]->empty()) cout << "[WARNING] No Patient objects loaded!\n";
+    //obj count
+    cout << "\nObjects created:" << endl;
+    const map<string, int>& counts = ObjectCounter::getInstance()->getCounter();
+    for (const auto& key : {"Doctor", "Nurse", "Patient", "Person", "ShiftSchedule", "Staff"}) {
+        cout << "  " << key << ": " << (counts.count(key) ? counts.at(key) : 0) << endl;
+    }
 
-    cout << "[DEBUG] Loading Nurse from: " << nurseCsv << endl;
-    NurseBuilder nurseBuilder; nurseBuilder.setFilePath(nurseCsv); loadedObjects["Nurse"] = nurseBuilder.makeDataObjectList();
-    if (!loadedObjects["Nurse"] || loadedObjects["Nurse"]->empty()) cout << "[WARNING] No Nurse objects loaded!\n";
-
-    // TODO: Add other builders as you implement them, using the above pattern
-    // Example:
-    // AdministrativeStaffBuilder adminBuilder; adminBuilder.setFilePath(adminCsv); loadedObjects["AdministrativeStaff"] = adminBuilder.makeDataObjectList();
-    // DepartmentBuilder departmentBuilder; departmentBuilder.setFilePath(departmentCsv); loadedObjects["Department"] = departmentBuilder.makeDataObjectList();
-    // ...repeat for all other entities...
-
-    // Show object counts after loading
-    cout << "\n========= Object Counts After Loading =========" << endl;
-    printAllObjectCounts();
-    cout << "==============================================" << endl;
-
-    // Release all objects and vectors
+    //release
+    cout << "\nReleasing all objs" << endl;
     for (auto& it : loadedObjects) {
         if (it.second) { for (auto* obj : *it.second) delete obj; delete it.second; }
     }
     loadedObjects.clear();
-    cout << "\nAll objects deleted." << endl;
 
-    // Show object counts after deletion
-    cout << "\n========= Object Counts After Deletion =========" << endl;
-    printAllObjectCounts();
-    cout << "===============================================" << endl;
+    //obj count
+    const map<string, int>& countsAfter = ObjectCounter::getInstance()->getCounter();
+    for (const auto& key : {"Doctor", "Nurse", "Patient", "Person", "ShiftSchedule", "Staff"}) {
+        cout << "  " << key << ": " << (countsAfter.count(key) ? countsAfter.at(key) : 0) << endl;
+    }
 
     logger->log("All dynamically allocated objects from main() deleted.");
     logger->log("Application finished.");

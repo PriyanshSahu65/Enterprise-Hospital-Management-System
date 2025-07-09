@@ -34,14 +34,15 @@ std::vector<DataObject*>* DoctorBuilder::constructDataObject(std::vector<std::ve
     const size_t INDEX_SCHEDULE_ID = MIN_DOCTOR_COLUMNS; // Index of ScheduleID column
     const size_t SHIFT_DETAILS_ENTRY_SIZE = 4; // Each shift detail is four columns (ID, Date, StartTime, EndTime)
 
+    size_t lineNum = 1; // For error reporting (header is line 1)
     for (const auto& row : *rawData) {
+        ++lineNum;
         if (row.size() < MIN_DOCTOR_COLUMNS) {
-            std::cerr << "Warning: Skipping malformed row in doctor data (expected at least " << MIN_DOCTOR_COLUMNS << " columns): ";
-            for (const auto& cell : row) {
-                std::cerr << cell << " ";
-            }
-            std::cerr << std::endl;
-            continue; // Skip to the next row
+            std::string err = "Malformed Doctor CSV row at line " + std::to_string(lineNum) + ": expected at least " + std::to_string(MIN_DOCTOR_COLUMNS) +
+                              " columns, got " + std::to_string(row.size()) + ". Row: ";
+            for (const auto& cell : row) err += cell + " ";
+            std::cerr << err << std::endl;
+            continue; // Skip this row, do not throw
         }
 
         std::string id = row[0];
