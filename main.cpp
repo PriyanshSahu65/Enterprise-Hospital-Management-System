@@ -18,11 +18,11 @@
 #include "include/ShiftSchedule.h"
 #include "include/Test.h"
 #include "include/Lab.h"
-#include "include/DataObject.h" // Assuming DataObject is a base class for polymorphic behavior
+#include "include/DataObject.h" 
 
 // Utility includes
-#include "include/ObjectCounter.h" // For getting counts
-#include "include/Logger.h"        // Our custom Logger
+#include "include/ObjectCounter.h" 
+#include "include/Logger.h"        
 #include "utils/BuilderFactory.h"
 #include "utils/DoctorBuilder.h"
 #include "utils/PatientBuilder.h"
