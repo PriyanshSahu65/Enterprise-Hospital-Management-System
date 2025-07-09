@@ -17,6 +17,8 @@ public:
     // This method provides the concrete implementation for constructDataObject
     // for Doctor objects.
     std::vector<DataObject*>* constructDataObject(std::vector<std::vector<std::string>>* rawData) override;
+
+    void setFilePath(const std::string& path);
 };
 
 #endif // DOCTOR_BUILDER_H

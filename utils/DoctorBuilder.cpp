@@ -13,6 +13,10 @@ DoctorBuilder::DoctorBuilder() {
     this->filePath = "data/doctors.csv"; // Example path, adjust as needed by your data files
 }
 
+void DoctorBuilder::setFilePath(const std::string& path) {
+    this->filePath = path;
+}
+
 std::vector<DataObject*>* DoctorBuilder::constructDataObject(std::vector<std::vector<std::string>>* rawData) {
     std::vector<DataObject*>* doctors = new std::vector<DataObject*>();
 
